@@ -1,0 +1,34 @@
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-color: #0083e9;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  width: 550px;
+}
+
+.answer {
+  opacity: 0;
+  height: 0;
+  display: none;
+}
+
+.visible {
+  opacity: 1;
+  transition: 10s all;
+  height: auto;
+  display: block;
+}

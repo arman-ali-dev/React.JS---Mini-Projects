@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100vh;
+  position: relative;
+}
+
+.bgChangerMain {
+  bottom: 50px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 10px 0;
+  border-radius: 40px;
+}
+
+.bgChangerMain li {
+  width: 10%;
+}
+
+.bgChangerMain li button {
+  color: #fff;
+  padding: 9px 0;
+  border-radius: 40px;
+  display: inline-block;
+  width: 67%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}

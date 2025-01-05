@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+#root {
+  width: 400px;
+}
+
+body {
+  background-color: #1c1c22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  box-shadow: 25px 25px 75px hsla(240, 10%, 9%), 10px 10px 70px rgb(22, 22, 26),
+    inset -5px -5px 15px hsla(240, 10%, 7%),
+    inset 5px 5px 15px hsla(240, 10%, 50%);
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.value {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 70px;
+  text-align: right;
+  padding: 20px 35px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  width: 70px;
+  height: 70px;
+  margin: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #2e2e38, #2e2e38);
+  box-shadow: inset -8px 0 8px #17171c, inset 0 -8px 8px #1c1c22,
+    inset 8px 0 8px #5c5c70, inset 0 8px 8px #5c5c70, 0 0 0 2px #151519,
+    10px 20px 25px #17171c;
+  color: hwb(0 100% 0%);
+  user-select: none;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 28px;
+  border-radius: 10px;
+}
+
+.btn:active {
+  filter: brightness(0.9);
+}
+
+.specialOperator {
+  font-size: 20px !important;
+  background: linear-gradient(90deg, #9c1c1c, #dc4141);
+  box-shadow: inset -8px 0 8px #842727, inset 0 -8px 8px #b04444,
+    inset 8px 0 8px #dc6464, inset 0 8px 8px #f41f1f, 0 0 0 0 rgb(242, 117, 117),
+    10px 20px 25px #1c1717;
+}
+
+.operator {
+  background: linear-gradient(90deg, #98ff10, #2c3e15);
+  box-shadow: inset -8px 0 8px rgb(48, 108, 23),
+    inset 0 -8px 8px rgb(48, 108, 23), inset 8px 0 8px rgb(48, 108, 23),
+    inset 0 8px 8px rgb(48, 108, 23), 0 0 0 0 rgb(48, 108, 23),
+    10px 20px 25px #1c1c1c !important;
+}
+
+.equals {
+  width: 160px;
+}
